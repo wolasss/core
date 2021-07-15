@@ -2,7 +2,7 @@
 
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
-  version: '1.14.3',
+  version: '1.14.4',
   name: 'wolas:accounts-core',
   git: 'https://github.com/wolasss/core.git',
 });
@@ -25,7 +25,7 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.use([
-    'http@1.4.3'
+    'http@2.0.0'
   ], 'server');
 
   api.imply([
